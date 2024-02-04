@@ -6,13 +6,13 @@ const { REACT_APP_FIREBASE_API_KEY, REACT_APP_FIREBASE_AUTH_DOMAIN, REACT_APP_FI
 
 // Firebase Configuration Object
 const firebaseConfig = {
-    apiKey: REACT_APP_FIREBASE_API_KEY,
-    authDomain: REACT_APP_FIREBASE_AUTH_DOMAIN,
-    projectId: REACT_APP_FIREBASE_PROJECT_ID,
-    storageBucket: REACT_APP_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-    appId: REACT_APP_FIREBASE_APP_ID,
-    measurementId: REACT_APP_FIREBASE_MEASUREMEMT_ID
+    apiKey: "AIzaSyC_qiSioUpCQ2h1gBvfqTs6y83dqf5Psqs",
+    authDomain: "contentfusetv-540ca.firebaseapp.com",
+    projectId: "contentfusetv-540ca",
+    storageBucket: "contentfusetv-540ca.appspot.com",
+    messagingSenderId: "945556738955",
+    appId: "1:945556738955:web:f0f834fffd9cc10c93558e",
+    measurementId: "G-2J2P39WTNZ"
 }
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
